@@ -1,11 +1,11 @@
-# Parsing Data 2 CSV In Anything Out 
- 
-##Learning Competencies 
+# Parsing Data 2 CSV In Anything Out
+
+##Learning Competencies
 
 * Map data in a file from one format to another using ruby
 * Choose the appropriate method to store data in a file.
 
-##Summary 
+##Summary
 
 We're going to take our previous CSV parsing code and augment it so we can output not just CSV data, but data in CSV, JSON, or YAML.
 
@@ -15,6 +15,8 @@ The goal is to learn about different formats for storing data, and to understand
 
 Read about [JSON](http://en.wikipedia.org/wiki/JSON) and [YAML](http://en.wikipedia.org/wiki/YAML).
 
+##Testing
+Carry over your tests from part 1 of this challenge series. _If you want to stretch:_ try and figure out how you might test that something saves, but this is not required.
 
 ##Releases
 
@@ -46,5 +48,5 @@ Try storing the data as a `JSON` array, which looks like this:
 
 ##Resources
 
-* [JSON](http://en.wikipedia.org/wiki/JSON) 
+* [JSON](http://en.wikipedia.org/wiki/JSON)
 * [YAML](http://en.wikipedia.org/wiki/YAML).
