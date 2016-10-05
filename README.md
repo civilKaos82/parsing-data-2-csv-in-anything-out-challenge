@@ -22,7 +22,7 @@ Carry over your tests from part 1 of this challenge series. _If you want to stre
 
 ###Release 0 : Save as YAML
 
-Implement a `PersonParser#save_as_yaml` method which saves the person data [as YAML](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/yaml/rdoc/YAML.html).  You'll have to include the `yaml` library in your code.  The nice thing is you can write code like this:
+Implement a `PersonParser#save_as_yaml` method which saves the person data [as YAML](http://www.ruby-doc.org/stdlib-2.2.0/libdoc/yaml/rdoc/YAML.html).  You'll have to include the `yaml` library in your code.  The nice thing is you can write code like this:
 
 ```ruby
 require 'yaml'
@@ -34,7 +34,7 @@ YAML is powerful, but uncommon outside of the Ruby world.
 
 ###Release 1 : Save as JSON
 
-Implement a `PersonParser#save_as_json` method which saves the person data [as JSON](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/json/rdoc/JSON.html).
+Implement a `PersonParser#save_as_json` method which saves the person data [as JSON](http://www.ruby-doc.org/stdlib-2.2.0/libdoc/json/rdoc/JSON.html).
 
 Although the `JSON` module adds a `to_json` method similar to the `to_yaml` method, JSON is not as powerful as YAML.  This means `to_json` won't know how to deal with your `Person` objects like `to_yaml` does.
 
